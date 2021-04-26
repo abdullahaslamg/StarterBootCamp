@@ -1,0 +1,46 @@
+.invoice-title h2, .invoice-title h3 {
+    display: inline-block;
+}
+
+.table > tbody > tr > .no-line {
+    border-top: none;
+}
+
+.table > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .thick-line {
+    border-top: 2px solid;
+}
+
+.invoice {
+    font-weight: 700;
+    margin-left: 179px;
+    margin-top: 36px;
+}
+
+.logo {
+    width: 20%;
+    margin-top: 36px;
+}
+
+.hr {
+    background-color: black;
+    height: 2px;
+}
+
+.table td, .table th {
+    padding: 0rem;
+}
+
+.upper-table .table td, .table th {
+    border-top: none;
+}
+
+.line {
+    width: 75%;
+    height: 5px;
+    background-color: black;
+    float: right;
+}
